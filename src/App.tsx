@@ -32,7 +32,7 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-background to-muted">
+    <div className="min-h-screen bg-gradient-to-b from-background to-muted ">
       {/* Fixed Header */}
       <header className="fixed top-0 left-0 right-0 z-10 border-b bg-card/80 backdrop-blur supports-[backdrop-filter]:bg-card/60">
         <div className="max-w-lg mx-auto px-4 h-14 flex items-center justify-between">
@@ -98,14 +98,14 @@ function App() {
       </header>
 
       {/* Main Content */}
-      <main className="max-w-lg mx-auto px-4 pt-20 pb-8">
+      <main className="mx-auto px-4 pt-20 pb-8">
         <AnimatePresence>
           {showReward && (
             <motion.div
               initial={{ opacity: 0, y: -50 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -50 }}
-              className="fixed top-20 left-1/2 -translate-x-1/2 bg-primary text-primary-foreground p-4 rounded-lg shadow-lg"
+              className="fixed top-1/5 -translate-x-1/2 -translate-y-1/2 flex items-center bg-primary text-primary-foreground p-4 rounded-lg shadow-lg"
             >
               <div className="flex items-center space-x-2">
                 <Trophy className="h-5 w-5" />
