@@ -217,7 +217,7 @@ function App() {
                   <div className="flex items-center justify-between mb-4">
                     <div className="flex items-center space-x-2">
                       <Moon className="h-5 w-5 text-primary" />
-                      <h3 className="font-semibold">Sleep Duration</h3>
+                      <h3 className="font-semibold">Sleep</h3>
                     </div>
                     <span className="text-xl font-bold">0/7h</span>
                   </div>
@@ -248,7 +248,7 @@ function App() {
                   <div className="flex items-center justify-between mb-4">
                     <div className="flex items-center space-x-2">
                       <Dumbbell className="h-5 w-5 text-primary" />
-                      <h3 className="font-semibold">Workout Duration</h3>
+                      <h3 className="font-semibold">Workout</h3>
                     </div>
                     <span className="text-xl font-bold">0/30m</span>
                   </div>
